@@ -51,6 +51,8 @@ export const HOST_CAPABILITIES = Object.freeze({
   retryTerminalSpawn: 'browser',
   /** The roster names profiles this one gateway does not serve. */
   servedProfileRoster: 'browser',
+  /** The page reloads onto a new bundle its server rebuilt (the renderer ships with native Desktop). */
+  servedBundleReload: 'browser',
   /** The connection is the serving origin's, and its primary is the profile it launched as. */
   servingOriginConnection: 'browser',
   /** Code fences size to their longest line and scroll sideways inside the block. */
